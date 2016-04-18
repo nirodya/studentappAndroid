@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/newsfragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="javainstitute.edu.lk.studentapp.News">
+
+    <!-- TODO: Update blank fragment layout -->
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/newswebview">
+    </WebView>
+    <ProgressBar android:id="@+id/pBnews"
+        style="?android:attr/progressBarStyleHorizontal" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_centerVertical="true"
+        android:padding="2dip">
+    </ProgressBar>
+
+</FrameLayout>
